@@ -13,6 +13,7 @@
 		3E11BA017138C7D664F8A074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E11B3048C25D7BF01995D42 /* Assets.xcassets */; };
 		3E11BC828936EEB2325E8925 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E11BDB36826610DFC331473 /* Info.plist */; };
 		3E11BCFD8B5A0F8C971CE9C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BBB23BF6DFA9AA226B43 /* ViewController.swift */; };
+		3E11BDD1BB9221EDE54DD602 /* CPSelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BA146C11770379AA5B6D /* CPSelectionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3E11B194CBF01988E534E11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E11B3048C25D7BF01995D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E11B9BF0919794FBAAE3350 /* CPSelectionManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPSelectionManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E11BA146C11770379AA5B6D /* CPSelectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPSelectionManager.swift; sourceTree = "<group>"; };
 		3E11BBB23BF6DFA9AA226B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E11BD36FA17AD9CF34F2CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E11BDB36826610DFC331473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -57,11 +59,20 @@
 			path = CPSelectionManager;
 			sourceTree = "<group>";
 		};
+		3E11BEC9A10824D3603FC6E7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3E11BA146C11770379AA5B6D /* CPSelectionManager.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		3E11BFB8324DF6EA64C9711D = {
 			isa = PBXGroup;
 			children = (
 				3E11B18D725E275C91E8AE17 /* Products */,
 				3E11B566D51D2F2BF0AECFFF /* CPSelectionManager */,
+				3E11BEC9A10824D3603FC6E7 /* Source */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +102,7 @@
 		3E11B89DE77848F606BC08B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				ORGANIZATIONNAME = Chope;
 			};
 			buildConfigurationList = 3E11B8BDA52CBD9B61254988 /* Build configuration list for PBXProject "CPSelectionManager" */;
@@ -131,6 +143,7 @@
 			files = (
 				3E11B099D649C782B5775816 /* AppDelegate.swift in Sources */,
 				3E11BCFD8B5A0F8C971CE9C1 /* ViewController.swift in Sources */,
+				3E11BDD1BB9221EDE54DD602 /* CPSelectionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +284,7 @@
 				3E11B8E888CDEC97FDF18F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E11B8BDA52CBD9B61254988 /* Build configuration list for PBXProject "CPSelectionManager" */ = {
 			isa = XCConfigurationList;
