@@ -2,14 +2,17 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Source/CPSelectionManager.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CPSelectionManager/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CPSelectionManager/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CPSelectionManager/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CPSelectionManager/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CPSelectionManager/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CPSelectionManager/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Source/CPSelectionManager.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LICENSE" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CPSelectionManager.podspec" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/CPSelectionManager-fsvispgwvtqxuhfsbwqxdmzkiseq/Build/Intermediates/CPSelectionManager.build/Debug-iphoneos/CPSelectionManager.build/DerivedSources" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Header Search Paths">
