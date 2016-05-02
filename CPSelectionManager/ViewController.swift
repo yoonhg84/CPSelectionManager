@@ -13,6 +13,9 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet var collectionOfItemButtons: [UIButton] = [UIButton]()
     @IBOutlet var collectionOfMenuButtons: [UIButton] = [UIButton]()
+    @IBOutlet weak var selectAllButton: UIButton? = nil;
+    @IBOutlet weak var unselectAllButton: UIButton? = nil;
+    @IBOutlet weak var multipleButton: UIButton? = nil;
     @IBOutlet weak var countLabel: UILabel? = nil
     var itemSelectionManager = CPSelectionManager()
     var menuSelectionManager = CPSelectionManager()
@@ -20,7 +23,6 @@ class ViewController: UIViewController {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +40,13 @@ class ViewController: UIViewController {
             self.menuSelectionManager.addControl(button)
         }
         self.menuSelectionManager.selectionType = .Single
-        self.menuSelectionManager.selectAll()
+        self.menuSelectionManager.changedSelection = { [weak self] (manager: CPSelectionManager) in
+            guard let selectedControl = manager.selectedControls().first, multipleButton = self?.multipleButton else {
+                return
+            }
+
+            self?.selectAllButton?.enabled = (selectedControl == multipleButton)
+        }
     }
 
     @IBAction func single() {
@@ -49,8 +57,16 @@ class ViewController: UIViewController {
         self.itemSelectionManager.selectionType = .Multiple
     }
 
+    @IBAction func limitedMultiple() {
+        self.itemSelectionManager.selectionType = .LimitedMultiple(3)
+    }
+
     @IBAction func selectAll() {
-        self.itemSelectionManager.selectAll()
+        do {
+            try self.itemSelectionManager.selectAll()
+        } catch {
+
+        }
     }
 
     @IBAction func selectNone() {
