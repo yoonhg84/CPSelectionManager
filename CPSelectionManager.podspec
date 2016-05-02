@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "CPSelectionManager"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Manage selection of controls. (single/multiple selection)"
   s.description  = <<-DESC
   Manage selection of controls.
