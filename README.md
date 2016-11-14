@@ -19,17 +19,17 @@ pod 'CPSelectionManager'
 ### Single selection
 ```
 let selectionManager = CPSelectionManager()
-selectionManager.addControl(button1)
-selectionManager.addControl(button2)
-selectionManager.selectionType = .Single
+selectionManager.add(control: button1)
+selectionManager.add(control: button2)
+selectionManager.selectionType = .single
 ```
 
 ### Multi selection
 ```
 let selectionManager = CPSelectionManager()
-selectionManager.addControl(button1)
-selectionManager.addControl(button2)
-selectionManager.selectionType = .Multiple
+selectionManager.add(control: button1)
+selectionManager.add(control: button2)
+selectionManager.selectionType = .multiple
 ```
 
 ### Callback
