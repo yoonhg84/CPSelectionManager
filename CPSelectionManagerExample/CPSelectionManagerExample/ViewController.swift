@@ -11,12 +11,13 @@ import UIKit
 
 
 class ViewController: UIViewController {
+    @IBOutlet weak var selectAllButton: UIButton!
+    @IBOutlet weak var unselectAllButton: UIButton!
+    @IBOutlet weak var multipleButton: UIButton!
+    @IBOutlet weak var countLabel: UILabel!
     @IBOutlet var collectionOfItemButtons: [UIButton] = [UIButton]()
     @IBOutlet var collectionOfMenuButtons: [UIButton] = [UIButton]()
-    @IBOutlet weak var selectAllButton: UIButton? = nil;
-    @IBOutlet weak var unselectAllButton: UIButton? = nil;
-    @IBOutlet weak var multipleButton: UIButton? = nil;
-    @IBOutlet weak var countLabel: UILabel? = nil
+    
     var itemSelectionManager = CPSelectionManager()
     var menuSelectionManager = CPSelectionManager()
 
@@ -27,46 +28,42 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.itemSelectionManager.selectionType = .Single
+        self.itemSelectionManager.selectionType = .single
         self.itemSelectionManager.changedSelection = { [weak self] (manager: CPSelectionManager) in
             self?.countLabel?.text = "count : \(manager.countOfSelection())"
         }
 
-        self.collectionOfItemButtons.flatMap { (button: UIButton) in
-            self.itemSelectionManager.addControl(button)
+        self.collectionOfItemButtons.forEach {
+            let _ = self.itemSelectionManager.add(control: $0)
         }
 
-        self.collectionOfMenuButtons.flatMap { (button: UIButton) in
-            self.menuSelectionManager.addControl(button)
+        self.collectionOfMenuButtons.forEach {
+            let _ = self.menuSelectionManager.add(control: $0)
         }
-        self.menuSelectionManager.selectionType = .Single
+        self.menuSelectionManager.selectionType = .single
         self.menuSelectionManager.changedSelection = { [weak self] (manager: CPSelectionManager) in
-            guard let selectedControl = manager.selectedControls().first, multipleButton = self?.multipleButton else {
+            guard let selectedControl = manager.selectedControls().first, let multipleButton = self?.multipleButton else {
                 return
             }
 
-            self?.selectAllButton?.enabled = (selectedControl == multipleButton)
+            self?.selectAllButton?.isEnabled = (selectedControl == multipleButton)
         }
     }
 
     @IBAction func single() {
-        self.itemSelectionManager.selectionType = .Single
+        self.itemSelectionManager.selectionType = .single
     }
 
     @IBAction func multiple() {
-        self.itemSelectionManager.selectionType = .Multiple
+        self.itemSelectionManager.selectionType = .multiple
     }
 
     @IBAction func limitedMultiple() {
-        self.itemSelectionManager.selectionType = .LimitedMultiple(3)
+        self.itemSelectionManager.selectionType = .limitedMultiple(3)
     }
 
     @IBAction func selectAll() {
-        do {
-            try self.itemSelectionManager.selectAll()
-        } catch {
-
-        }
+        try? self.itemSelectionManager.selectAll()
     }
 
     @IBAction func selectNone() {
