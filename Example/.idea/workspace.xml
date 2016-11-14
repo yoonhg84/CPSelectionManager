@@ -21,19 +21,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CPSelectionManager.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/Source/CPSelectionManager.swift">
+        <entry file="file://$PROJECT_DIR$/../Source/CPSelectionManager.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1479125988000" expanded="true" signature="2187:2307" ph="{...}" />
-                <marker date="1479125988000" expanded="true" signature="2187:2309" ph="{...}" />
+                <marker date="1462374000000" expanded="true" signature="930:936" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project Settings" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CPSelectionManager.podspec" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CPSelectionManager.podspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Project Settings" pinned="false" current-in-tab="false">
         <entry file="appcode.project-settings://6ffca153">
           <provider selected="true" editor-type-id="AppCode.ProjectSettings">
             <state />
@@ -45,8 +54,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Documents/Projects/CPSelectionManager/CPSelectionManagerExample/CPSelectionManager/ViewController.swift" />
-        <option value="$USER_HOME$/Documents/Projects/CPSelectionManager/Source/CPSelectionManager.swift" />
+        <option value="$PROJECT_DIR$/CPSelectionManager/ViewController.swift" />
+        <option value="$PROJECT_DIR$/../Source/CPSelectionManager.swift" />
       </list>
     </option>
   </component>
@@ -142,7 +151,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Projects/CPSelectionManager/CPSelectionManager.podspec" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CPSelectionManager.podspec" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="CPSelectionManagerExample" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
@@ -204,12 +213,12 @@
       <option name="presentableId" value="Default" />
       <updated>1462373748436</updated>
       <workItem from="1467457660621" duration="817000" />
-      <workItem from="1479125204666" duration="423000" />
+      <workItem from="1479125204666" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1240000" />
+    <option name="totallyTimeSpent" value="1145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="11" width="1392" height="878" extended-state="0" />
@@ -255,18 +264,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/Source/CPSelectionManager.swift">
+    <entry file="file://$PROJECT_DIR$/../Source/CPSelectionManager.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479125988000" expanded="true" signature="2187:2307" ph="{...}" />
-            <marker date="1479125988000" expanded="true" signature="2187:2309" ph="{...}" />
+            <marker date="1462374000000" expanded="true" signature="930:936" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/CPSelectionManagerExample/CPSelectionManager.podspec">
+    <entry file="file://$PROJECT_DIR$/CPSelectionManager.podspec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -279,13 +287,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/Source/CPSelectionManager.swift">
+    <entry file="file://$PROJECT_DIR$/../Source/CPSelectionManager.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479125988000" expanded="true" signature="2187:2307" ph="{...}" />
-            <marker date="1479125988000" expanded="true" signature="2187:2309" ph="{...}" />
+            <marker date="1462374000000" expanded="true" signature="930:936" ph="..." />
           </folding>
         </state>
       </provider>
@@ -295,13 +302,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/Source/CPSelectionManager.swift">
+    <entry file="file://$PROJECT_DIR$/../Source/CPSelectionManager.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479125988000" expanded="true" signature="2187:2307" ph="{...}" />
-            <marker date="1479125988000" expanded="true" signature="2187:2309" ph="{...}" />
+            <marker date="1462374000000" expanded="true" signature="930:936" ph="..." />
           </folding>
         </state>
       </provider>
@@ -311,13 +317,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/Source/CPSelectionManager.swift">
+    <entry file="file://$PROJECT_DIR$/../Source/CPSelectionManager.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479125988000" expanded="true" signature="2187:2307" ph="{...}" />
-            <marker date="1479125988000" expanded="true" signature="2187:2309" ph="{...}" />
+            <marker date="1462374000000" expanded="true" signature="930:936" ph="..." />
           </folding>
         </state>
       </provider>
@@ -327,40 +332,38 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/Source/CPSelectionManager.swift">
+    <entry file="file://$PROJECT_DIR$/../Source/CPSelectionManager.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479125988000" expanded="true" signature="2187:2307" ph="{...}" />
-            <marker date="1479125988000" expanded="true" signature="2187:2309" ph="{...}" />
+            <marker date="1462374000000" expanded="true" signature="930:936" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/CPSelectionManagerExample/CPSelectionManager/ViewController.swift" />
-    <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/Source/CPSelectionManager.swift">
+    <entry file="file://$PROJECT_DIR$/CPSelectionManager/ViewController.swift" />
+    <entry file="appcode.project-settings://6ffca153">
+      <provider selected="true" editor-type-id="AppCode.ProjectSettings">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Source/CPSelectionManager.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479125988000" expanded="true" signature="2187:2307" ph="{...}" />
-            <marker date="1479125988000" expanded="true" signature="2187:2309" ph="{...}" />
+            <marker date="1462374000000" expanded="true" signature="930:936" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Projects/CPSelectionManager/CPSelectionManagerExample/CPSelectionManager.podspec">
+    <entry file="file://$PROJECT_DIR$/CPSelectionManager.podspec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="appcode.project-settings://6ffca153">
-      <provider selected="true" editor-type-id="AppCode.ProjectSettings">
-        <state />
       </provider>
     </entry>
   </component>
