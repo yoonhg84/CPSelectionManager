@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "CPSelectionManager"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Manage selection of controls. (single/multiple selection)"
   s.description  = <<-DESC
   Manage selection of controls.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/yoonhg84/CPSelectionManager"
   s.screenshots  = "https://raw.githubusercontent.com/yoonhg84/CPSelectionManager/master/README/CPSelectionManager.gif"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "yoonhg84" => "yoonhg2002@gmail.com" }
+  s.author       = { "yoonhg84" => "yoonhg2002@gmail.com" }
   s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/yoonhg84/CPSelectionManager.git", :tag => s.version }
